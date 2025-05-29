@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buildworld</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header, footer {
+      background: #004080;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #003366;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    form input, form textarea, form button {
+      display: block;
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    .button {
+      background: #004080;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Buildworld</h1>
+    <p>Together, we can build a better world. One cause, one idea, one step at a time.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#causes">Our Causes</a>
+    <a href="#idea">Share Idea</a>
+    <a href="#volunteer">Join Us</a>
+    <a href="#contact">Contact</a>
+    <a href="#youtube">YouTube</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Buildworld is a community-driven platform dedicated to sharing ideas and building social projects to help society grow stronger. Whether it's infrastructure, healthcare, education or local development, we welcome ideas from everyone.</p>
+  </section>
+
+  <section id="causes">
+    <h2>Our Causes</h2>
+    <ul>
+      <li>Rural infrastructure development</li>
+      <li>Free health services and awareness camps</li>
+      <li>Educational support for underprivileged children</li>
+      <li>Environmental clean-up and plantation drives</li>
+    </ul>
+  </section>
+
+  <section id="idea">
+    <h2>Share Your Idea</h2>
+    <form action="https://formsubmit.co/rahulmena169.17@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="idea" rows="5" placeholder="Describe your idea..." required></textarea>
+      <button class="button" type="submit">Submit Idea</button>
+    </form>
+  </section>
+
+  <section id="volunteer">
+    <h2>Join Us / Volunteer</h2>
+    <p>If you'd like to join our mission, contact us with your details or submit an idea above. We welcome volunteers from all backgrounds.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach out to us via our YouTube channel or submit your idea using the form above.</p>
+  </section>
+
+  <section id="youtube">
+    <h2>Our YouTube Channel</h2>
+    <p>Watch and support our content at <a href="https://www.youtube.com/@gabrukhiladi" target="_blank">Gabrukhiladi</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Buildworld. Created with ❤️ for social good.</p>
+  </footer>
+</body>
+</html>
